@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mLoveLayout = (LoveLayout) findViewById(R.id.love_layout);
+        Toast.makeText(this, "测试", Toast.LENGTH_SHORT).show();
     }
 
 
