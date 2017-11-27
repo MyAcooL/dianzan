@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.acool.zhibodianzan.LoveLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/love_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.acool.zhibodianzan.MainActivity">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开始动画"
+            android:background="#b67979"
+            android:textColor="#fff"
+            android:onClick="add"
+            />
+
+</com.acool.zhibodianzan.LoveLayout>
